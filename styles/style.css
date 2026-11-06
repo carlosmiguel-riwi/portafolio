@@ -1,0 +1,108 @@
+body {
+    background: linear-gradient(132deg, #8b0e81, #7c2861);
+    background-attachment: fixed;
+    color: #333333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar */
+.navbar-custom {
+    background-color: #6324e0;
+}
+.navbar-custom .navbar-brand {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+}
+.navbar-custom .nav-link {
+    color: #5f7acd;
+    transition: color 0.3s;
+}
+.navbar-custom .nav-link:hover {
+    color: #ffffff;
+}
+.navbar-custom .navbar-toggler {
+    background-color: #ffffff;
+}
+
+/* Hero */
+.hero {
+    color: #ffffff;
+    padding: 50px 10px;
+}
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+.hero p {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Proyectos */
+.project-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border: 10px solid white;
+}
+.project-card:hover {
+    border: 10px solid rgb(214, 211, 211);
+}
+.project-card h3 {
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    text-shadow: 1px 1px 2px black;
+
+}
+.project-card p {
+    color: #fefefe;
+    font-size: 0.95rem;
+    margin-bottom: 40px;
+    text-align: center;
+    text-shadow: 2px 2px 4px black;    
+    font-weight: bold;
+}
+.riwi {
+    background: url('../img/riwi.webp') no-repeat center center;
+    background-size: cover;
+}
+
+/* Botones */
+.btn-custom {
+    background-color: #38bdf8;
+    color: #0f172a;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+.btn-custom:hover {
+    background-color: #0ea5e9;
+    color: #fff;
+}
+.btn-purple {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #6f42c1;
+    --bs-btn-border-color: #6f42c1;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #5a32a3;
+    --bs-btn-hover-border-color: #5a32a3;
+    --bs-btn-active-bg: #4e2b8f;
+    --bs-btn-active-border-color: #4e2b8f;
+}
+/* Contacto */
+.contact-section {
+    border-top: 5px solid rgb(98, 159, 180);
+}
+.contact-section p {
+    color: #6b7280;
+}
+
+/* Footer */
+footer {
+    background-color: #0f172a;
+    color: #94a3b8;
+    font-size: 0.9rem;
+}
